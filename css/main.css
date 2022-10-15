@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@500&family=Sen:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+
+header {
+    background: rgba(13, 13, 13, 1);
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_img {
+    max-width: 300px;
+}
+
+.nav_lists {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    margin: 30px 40px;
+}
+
+.nav_lists_link {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.buttons {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1c1d28;
+    align-items: center;
+    padding: 20px 48px;
+    background: #ffd2a4;
+    backdrop-filter: blur(40px);
+    border-radius: 12px;
+}
+
+.btn_humburger {
+    display: none;
+}
+
+
+footer {
+    background-color: #161722;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .left {
+    flex: 30%;
+}
+
+.footer .center1 {
+    flex: 15%;
+}
+
+.footer .center2 {
+    flex: 15%;
+}
+
+.footer .right {
+    flex: 40%;
+}
+
+.footer .left .logo {
+    margin-top: 64px;
+}
+
+.footer .left .p-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer .left .p-top {
+    margin-top: 32px;
+}
+
+.footer .left .p-top2 {
+    margin-top: 16px;
+}
+
+.footer .left .mar-bot {
+    margin-bottom: 70px;
+}
+
+
+.footer .center1 .quick {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 65px;
+}
+
+.footer .center1 a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.78;
+}
+
+.footer .center2 a {
+    text-decoration: none;
+}
+
+.footer .center2 .fb {
+    margin-top: 20px;
+}
+
+.footer .center2 .soc-m {
+    margin-left: 20px;
+}
+
+.footer .center2 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 64px;
+}
+
+.footer .right h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 64px;
+}
+
+.footer input {
+    margin-top: 55px;
+    padding: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px 0 0 12px;
+    background-color: #161722;
+    color: white;
+    width: 220px;
+    outline: none;
+}
+
+.footer button {
+    padding: 18.5px 40px;
+    background-color: rgba(255, 210, 164, 1);
+    border-radius: 12px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C1D28;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background-color: rgba(242, 199, 155, 1)
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.center2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .center2 .fb {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Header */
+
+    .top_img {
+        width: 100px;
+        padding: 15px 0;
+        background-position: center;
+    }
+
+    .nav_lists_link {
+        font-size: 12px;
+    }
+
+    .buttons {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+
+    .footer .right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    /* heeader */
+
+    .nav_lists {
+        display: none;
+    }
+
+    header>div>div {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn_humburger {
+        display: block;
+        color: #ffd2a4;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .center2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer .center2 .fb {
+        margin-top: 0px;
+    }
+}

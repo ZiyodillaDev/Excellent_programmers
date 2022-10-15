@@ -9,65 +9,6 @@
   text-decoration: none;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Header */
-
-header {
-  background: rgba(13, 13, 13, 1);
-}
-
-header > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.top_img {
-  max-width: 300px;
-}
-
-.nav_lists {
-  display: flex;
-  gap: 48px;
-  align-items: center;
-  margin: 30px 40px;
-}
-
-.nav_lists_link {
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-transform: uppercase;
-  color: #ffffff;
-  opacity: 0.9;
-}
-
-.buttons {
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #1c1d28;
-  align-items: center;
-  padding: 20px 48px;
-  background: #ffd2a4;
-  backdrop-filter: blur(40px);
-  border-radius: 12px;
-}
-
-.btn_humburger {
-  display: none;
-}
 
 .hero {
   background-image: url(../images/home_images/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg);
