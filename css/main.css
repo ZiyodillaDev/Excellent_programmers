@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -202,16 +204,8 @@ footer {
 .footer button:hover {
     background-color: rgba(242, 199, 155, 1)
 }
-
-
-.footer {
-    display: flex;
-    flex-direction: column;
-}
-
-.center2 {
-    display: flex;
-    flex-direction: row;
+.center2 img {
+padding-top: 20px;
 }
 
 .footer .center2 .fb {
