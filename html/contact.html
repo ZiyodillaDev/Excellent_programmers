@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav">
+                    <div class="left">
+                        <a href="#">
+                            <img src="../images/contact_images/Logo (1).png" alt="Site logo">
+                        </a>
+                    </div>
+                    <div class="center">
+                        <a class="home" href="../html/home.html">
+                            Home
+                        </a>
+                        <a href="../html/about.html">
+                            About us
+                        </a>
+                        <a href="../html/sermons.html">
+                            Sermon
+                        </a>
+                        <a href="../html/blog.html">
+                            Blog
+                        </a>
+                    </div>
+                    <div class="right">
+                        <a href="../html/contact.html">
+                            Contact us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <p class="contact">Contact</p>
+                <h1>Get in touch with <br> our CHURCH</h1>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <h2 class="contact">Contact form:</h2>
+                <div class="form">
+                    <div class="left">
+                        <form action="https://echo.htmlacademy.ru/" method="post">
+                            <input type="text" name="full-nmae" placeholder="Your full Name">
+                            <input type="email" name="email" placeholder="Your Email">
+                            <input type="text" name="Query Related" placeholder="Query Related">
+                            <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <button>Send message</button>
+                        </form>
+                    </div>
+                    <div class="right">
+                        <p>Address</p>
+                        <h2>NH 234   Public Square <br>
+                            San Francisco  65368</h2>
+                        <p>Contact Details</p>
+                        <h2>(480) 555-0103</h2>
+                        <h2>finsweet@example.com</h2>
+                        <p>Find us here</p>
+                        <a href="#">
+                            <img src="../images/contact_images/facebook-2.png" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img class="m-l" src="../images/contact_images/twitter-2.png" alt="twitter">
+                        </a>
+                        <a href="#">
+                            <img class="m-l" src="../images/contact_images/linkedin.png" alt="linked-in">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="left">
+                    <img class="logo" src="../images/contact_images/Logo.png" alt="Logo">
+                    <p class="p-desc p-top">© Copyright Finsweet 2022</p>
+                    <p class="p-desc p-top">(480) 555-0103</p>
+                    <p class="p-desc p-top2">4517 Washington Ave. </p>
+                    <p class="p-desc p-top2 mar-bot">finsweet@example.com</p>
+                </div>
+                <div class="center1">
+                    <p class="quick">Quicklinks</p>
+                    <a href="../html/about.html">About us</a><br>
+                    <a href="../html/sermons.html">Sermons</a><br>
+                    <a href="../html/contact.html">Contact</a><br>
+                    <a href="../html/blog.html">Blog</a>
+                </div>
+                <div class="center2">
+                    <p>Connect</p>
+                    <a href="#">
+                        <img class="fb" src="../images/contact_images/facebook.png" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img class="soc-m" src="../images/contact_images/twitter.png">
+                    </a>
+                    <a href="#">
+                        <img class="soc-m" src="../images/contact_images/linked-in.png" alt="Linked-in">
+                    </a>
+                </div>
+                <div class="right">
+                    <h2>Subscribe to get Latest <br> Updates and News</h2>
+                    <form action="https://echo.htmlacademy.ru/" method="post">
+                        <input name="email" type="email" placeholder="Yourmail@gmail.com">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggle() {
+          const menus = document.getElementById("menus");
+          if (menus.className === "navbar") {
+            menus.className = "navbar responsive";
+          } else {
+            menus.className = "navbar";
+          }
+        }
+      </script>
+
+    
+</body>
+</html>
