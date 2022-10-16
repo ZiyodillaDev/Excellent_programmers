@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/blogpost.css">
+    <link rel="stylesheet" href="./css/blogpost.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>
         Blog Post
     </title>
@@ -13,38 +14,30 @@
 
 <body>
     <header>
-        <nav>
-            <div class="container">
-                <div class="nav">
-                    <div class="left">
-                        <a href="#">
-                            <img src="../images/blogpost_images/Logo.svg" alt="Site logo">
-                        </a>
-                    </div>
-                    <div class="center">
-                        <a class="home" href="../html/home.html">
-                            Home
-                        </a>
-                        <a href="../html/about.html">
-                            About us
-                        </a>
-                        <a href="../html/sermons.html">
-                            Sermon
-                        </a>
-                        <a href="../html/blog.html">
-                            Blog
-                        </a>
-                    </div>
-                    <div class="right">
-                        <a href="../html/contact.html">
-                            Contact us
-                        </a>
-                    </div>
-                </div>
+        <div class="container">
+            <img class="top_img" src="../images/home_images/Logo_white.svg" alt="sodjfo" />
+            <nav>
+                <ul class="nav_lists">
+                    <li class="nav_lists_item">
+                        <a class="nav_lists_link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav_lists_item">
+                        <a class="nav_lists_link" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav_lists_item">
+                        <a class="nav_lists_link" href="./sermons.html">Sermon</a>
+                    </li>
+                    <li class="nav_lists_item">
+                        <a class="nav_lists_link" href="./blog.html">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a class="buttons header_button" href="./contact.html">Contact us</a>
+                <a class="btn_humburger" href="#"><img src="../images/home_images/hamburger_icon.svg" alt="afsa" /></a>
             </div>
-        </nav>
+        </div>
     </header>
-
     <main>
         <div class="container">
             <section class="first_section">
@@ -159,29 +152,29 @@
         <div class="container">
             <div class="footer">
                 <div class="left">
-                    <img class="logo" src="../images/blogpost_images/Logo.svg" alt="Logo">
+                    <img class="logo" src="../images/home_images/Logo.svg" alt="Logo">
                     <p class="p-desc p-top">© Copyright Finsweet 2022</p>
-                    <p class="p-desc p-top">(480) 555-0103</p>
-                    <p class="p-desc p-top2">4517 Washington Ave. </p>
+                    <p class="p-desc p-top"><a class="p-desc p-top" href="tel:(480) 555-0103">(480) 555-0103</a></p>
+                    <p class="p-desc p-top2"><a href=""></a> 4517 Washington Ave. </p>
                     <p class="p-desc p-top2 mar-bot">finsweet@example.com</p>
                 </div>
                 <div class="center1">
                     <p class="quick">Quicklinks</p>
-                    <a href="../html/about.html">About us</a><br>
-                    <a href="../html/sermons.html">Sermons</a><br>
-                    <a href="../html/contact.html">Contact</a><br>
-                    <a href="../html/blog.html">Blog</a>
+                    <a href="./about.html">About us</a><br>
+                    <a href="./sermons.html">Sermons</a><br>
+                    <a href="./contact.html">Contact</a><br>
+                    <a href="./blog.html">Blog</a>
                 </div>
                 <div class="center2">
                     <p>Connect</p>
                     <a href="#">
-                        <img class="fb" src="../images/blogpost_images/fecebook.svg" alt="facebook">
+                        <img class="fb" src="../images/home_images/Vector.svg" alt="facebook">
                     </a>
                     <a href="#">
-                        <img class="soc-m" src="../images/blogpost_images/tiviter.svg" alt="twitter">
+                        <img class="soc-m" src="../images/home_images/tw.svg" alt="twitter">
                     </a>
                     <a href="#">
-                        <img class="soc-m" src="../images/blogpost_images/in.svg" alt="Linked-in">
+                        <img class="soc-m" src="../images/home_images/in.svg" alt="Linked-in">
                     </a>
                 </div>
                 <div class="right">
@@ -193,6 +186,7 @@
                 </div>
             </div>
         </div>
+
     </footer>
     
 </body>

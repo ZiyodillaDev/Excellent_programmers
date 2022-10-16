@@ -1,12 +1,4 @@
 
-
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 .container2 {
     max-width: 1500px;
     margin: 0 auto;
@@ -595,7 +587,4 @@
     .box4 {
         margin-bottom: 48px;
     }
-
-
-
 }

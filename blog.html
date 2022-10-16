@@ -6,46 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="container">
-                <div class="nav">
-                    <div class="left">
-                        <a href="#">
-                            <img src="../images/blog_images/logo.png" alt="Site logo">
-                        </a>
-                    </div>
-                    <div class="center">
-                        <a class="home nav_item" href="../html/home.html">
-                            Home
-                        </a>
-                        <a class="nav_item" href="../html/about.html">
-                            About us
-                        </a>
-                        <a class="nav_item" href="../html/sermons.html">
-                            Sermon
-                        </a>
-                        <a class="nav_item" href="../html/blog.html">
-                            Blog
-                        </a>
-                        <button class="btn_hamburger">
-                            <img src="../images/blog_images/hamburger_icon.svg" alt="hamburger">
-                        </button>
-                    </div>
-                    <div class="right">
-                        <a href="../html/contact.html">
-                            Contact us
-                        </a>
-
-                    </div>
-                </div>
+        <div class="container">
+            <img class="top_img" src="../images/home_images/Logo_white.svg" alt="sodjfo" />
+            <nav>
+                <ul class="nav_lists">
+                    <li class="nav_lists_item">
+                        <a class="nav_lists_link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav_lists_item">
+                        <a class="nav_lists_link" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav_lists_item">
+                        <a class="nav_lists_link" href="./sermons.html">Sermon</a>
+                    </li>
+                    <li class="nav_lists_item">
+                        <a class="nav_lists_link" href="./blog.html">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a class="buttons header_button" href="./contact.html">Contact us</a>
+                <a class="btn_humburger" href="#"><img src="../images/home_images/hamburger_icon.svg" alt="afsa" /></a>
             </div>
-        </nav>
+        </div>
     </header>
+
 
     <main id="main">
         <section id="hero">
@@ -64,7 +55,7 @@
                             <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br> nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure
                             dolor.</p>
-                        <a href="../html/blogpost.html">
+                        <a href="./blogpost.html">
                             Read more
                         </a>
                     </div>
@@ -143,29 +134,29 @@
         <div class="container">
             <div class="footer">
                 <div class="left">
-                    <img class="logo" src="../images/blog_images/logo.png" alt="Logo">
+                    <img class="logo" src="../images/home_images/Logo.svg" alt="Logo">
                     <p class="p-desc p-top">© Copyright Finsweet 2022</p>
-                    <p class="p-desc p-top">(480) 555-0103</p>
-                    <p class="p-desc p-top2">4517 Washington Ave. </p>
+                    <p class="p-desc p-top"><a class="p-desc p-top" href="tel:(480) 555-0103">(480) 555-0103</a></p>
+                    <p class="p-desc p-top2"><a href=""></a> 4517 Washington Ave. </p>
                     <p class="p-desc p-top2 mar-bot">finsweet@example.com</p>
                 </div>
                 <div class="center1">
                     <p class="quick">Quicklinks</p>
-                    <a href="../html/about.html">About us</a><br>
-                    <a href="../html/sermons.html">Sermon</a><br>
-                    <a href="../html/contact.html">Contact</a><br>
-                    <a href="../html/blog.html">Blog</a>
+                    <a href="./about.html">About us</a><br>
+                    <a href="./sermons.html">Sermons</a><br>
+                    <a href="./contact.html">Contact</a><br>
+                    <a href="./blog.html">Blog</a>
                 </div>
                 <div class="center2">
                     <p>Connect</p>
                     <a href="#">
-                        <img class="fb" src="../images/blog_images/fb_icon.png" alt="facebook">
+                        <img class="fb" src="../images/home_images/Vector.svg" alt="facebook">
                     </a>
                     <a href="#">
-                        <img class="soc-m" src="../images/blog_images/twit_icon.png" alt="twitter">
+                        <img class="soc-m" src="../images/home_images/tw.svg" alt="twitter">
                     </a>
                     <a href="#">
-                        <img class="soc-m" src="../images/blog_images/in_icon.png" alt="Linked-in">
+                        <img class="soc-m" src="../images/home_images/in.svg" alt="Linked-in">
                     </a>
                 </div>
                 <div class="right">
@@ -177,19 +168,9 @@
                 </div>
             </div>
         </div>
+
     </footer>
-    <script>
-        function toggle() {
-          const menus = document.getElementById("menus");
-          if (menus.className === "navbar") {
-            menus.className = "navbar responsive";
-          } else {
-            menus.className = "navbar";
-          }
-        }
-      </script>
-
-
+    
 </body>
 
 </html>
