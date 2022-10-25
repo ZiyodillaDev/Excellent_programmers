@@ -279,11 +279,8 @@
 
 /* Our team section */
 
-.our_team {
-    padding-top: 128px;
-}
-
 .our_team p {
+    padding-top: 70px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -294,6 +291,7 @@
 }
 
 .our_team h2 {
+    padding-top: 20px;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -365,6 +363,7 @@
     color: #161722;
     opacity: 0.7;
     padding-bottom: 18px;
+    padding-top: 5px;
 }
 
 .social {
@@ -505,8 +504,17 @@
     }
 
     .section4 .left {
-        padding-bottom: 90px;
+        padding-bottom: 40px;
 
+    }
+
+    .section4{
+        width: 100%;
+    }
+
+    .section4 h4,.section4p {
+        text-align: center;
+        padding-top: 20px;
     }
 
     /* OUR TEAM */
@@ -519,13 +527,39 @@
 }
 
 
-
+/* .nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: space-between;
+  
+  }
+  .nav_list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  } */
+  /* .nav_lists_link {
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+  } */
 /* FOR TELEPHONE */
 
 
 @media only screen and (max-width:576px) {
 
-
+.container{
+    max-width: 550px;
+    padding: 0px 5px;
+}
+.love_complect .praying_w{
+    width: 100%;
+}
     /* welcome */
     .welcome p:nth-child(1) {
         padding-top: 40px;
@@ -547,7 +581,6 @@
         display: block;
         padding-top: 0px;
         justify-content: stretch;
-
     }
 
 
@@ -587,4 +620,38 @@
     .box4 {
         margin-bottom: 48px;
     }
+
+        
+      /* .header--open .toggle {
+       margin-left: 200px;
+      }
+         
+      .header--open .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 45px 36px ;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+  
+    }
+    
+      .header--open .nav .site {
+        font-size: 24px;
+      }
+    
+      .header--open .nav_list {
+        flex-direction: column;
+      } */
+    
 }
+
+@media screen and (max-width:450px){
+    .praying_w img {
+        width: 100%;
+    }
+} 
+    
